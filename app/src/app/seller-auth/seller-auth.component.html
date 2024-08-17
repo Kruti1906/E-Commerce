@@ -1,0 +1,91 @@
+<form [formGroup]="loginForm" class="f2">
+  <div class="container" *ngIf="!showLogin">
+    <p class="p1">Seller sign-up form</p>
+    <div>
+      <label for="uname"><b>Enter Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" formControlName="uname">
+      <small style="color: red;" *ngIf="loginForm.get('uname')?.touched && loginForm.get('uname')?.errors?.['required']">
+        Username is required
+      </small>
+      <small style="color: red;" *ngIf="loginForm.get('uname')?.hasError('pattern') && loginForm.get('uname')?.dirty">
+        Username cannot contain spaces
+      </small>
+    </div>
+
+    <div>
+      <label for="email"><b>Enter Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" formControlName="email">
+      <small style="color: red;" *ngIf="loginForm.get('email')?.touched && loginForm.get('email')?.errors?.['required']">
+        Email is required
+      </small>
+      <small style="color: red;" *ngIf="loginForm.get('email')?.hasError('email')">
+        Please enter a valid email address
+      </small>
+      <small style="color: red;" *ngIf="loginForm.get('email')?.hasError('invalidEmail')">
+        Email must valid email
+      </small>
+      <small style="color: red;" *ngIf="loginForm.get('email')?.errors?.['existingEmail']">
+        Email is already registered
+      </small>
+    </div>
+
+    <div>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" formControlName="psw">
+      <small style="color: red;" *ngIf="loginForm.get('psw')?.touched && loginForm.get('psw')?.errors?.['required']">
+        Password is required
+      </small>
+      <small style="color: red" *ngIf="loginForm.get('psw')?.hasError('pattern') && loginForm.get('psw')?.dirty">
+        Password must contain at least one uppercase letter, one lowercase letter, one number, one special character, and be at least 8 characters long.
+      </small>
+    </div>
+
+    <div>
+      <label for="role"><b>Select Role</b></label>
+      <select class="form-select" aria-label="Default select example" name="role" formControlName="role">
+        <option value="user">User</option>
+        <option value="seller">Seller</option>
+      </select>
+      <small style="color: red;" *ngIf="loginForm.get('role')?.touched && loginForm.get('role')?.errors?.['required']">
+        Role is required
+      </small>
+    </div>
+    
+    <button type="submit" (click)="onsubmit()" [disabled]="loginForm.invalid">Sign Up</button>
+    <a class="h1" (click)="openlogin()">Already Have Account? Click To Login</a>
+  </div>
+</form>
+
+<br><br>
+
+<form [formGroup]="signinForm" class="f2">
+  <div class="container" *ngIf="showLogin">
+    <p class="p1">Seller Log-in Form</p>
+    <div>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" formControlName="email">
+      <small style="color: red;" *ngIf="signinForm.get('email')?.touched && signinForm.get('email')?.errors?.['required']">
+        Email is required
+      </small>
+      <small style="color: red;" *ngIf="signinForm.get('email')?.hasError('email')">
+        Please enter a valid email address
+      </small>
+      <small style="color: red;" *ngIf="signinForm.get('email')?.hasError('invalidEmail')">
+        Email must valid password
+      </small>
+    </div>
+    <div>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" formControlName="psw">
+      <small style="color: red;" *ngIf="signinForm.get('psw')?.touched && signinForm.get('psw')?.errors?.['required']">
+        Password is required
+      </small>
+      <small style="color: red" *ngIf="signinForm.get('psw')?.hasError('invalidPassword') && signinForm.get('psw')?.dirty">
+        Password must contain at least one uppercase letter, one lowercase letter, one number, one special character, and be at least 8 characters long.
+      </small>
+    </div>
+    
+    <button type="submit" (click)="onlogin()" [disabled]="signinForm.invalid">Login</button>
+    <a class="h1" (click)="opensignin()">Don't Have Account? Click To Sign Up</a>
+  </div>
+</form>

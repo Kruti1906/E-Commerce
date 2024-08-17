@@ -1,0 +1,122 @@
+<!-- <nav class="nav">
+  <p><a class="h1" routerLink="/">E-COMM</a></p>
+  <div *ngIf="menuType==='default'" class="navbar">
+    <input type="text" placeholder="search product">
+    <button>search</button>
+  </div>
+  <div [ngSwitch]="menuType">
+    <ul *ngSwitchCase="'default'">
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="seller-home">Seller</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="login">login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="add-cart">Add Cart</a>
+      </li>
+    </ul>
+    
+
+    <ul *ngSwitchCase="'Seller'">
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="">product list</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="seller-home">add product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="login">logout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="add-cart">seller name</a>
+      </li>
+    </ul>
+
+
+  </div>
+</nav>
+     -->
+
+     <nav class="nav">
+      <!-- Branding or title -->
+      <p><a class="h1" (click)="shutter()">shutterstock</a></p>
+      
+      <!-- Default menu section -->
+       <!-- <div *ngIf="menuType === 'default'" class="navbar">
+        <input type="text" #searchInput (keyup)="searchProducts($event)" (blur)="hidesearch()" placeholder="Search product">
+        <button (click)="submitsearch(searchInput.value)">Search</button>
+        <ul class="search-result" *ngIf="searchresult">
+          <li *ngFor="let item of searchresult">
+            <a>{{item.Name}}</a>
+          </li>
+        </ul>
+      </div>  -->
+
+      <div *ngIf="menuType === 'default'" class="navbar">
+        <input type="text" #searchInput (keyup.enter)="submitSearch(searchInput.value)" (blur)="hideSearch()" placeholder="Search product">
+        <ul class="search-result" *ngIf="searchResult && searchResult.length > 0">
+            <li *ngFor="let item as searchResult">
+                <!-- <a (click)="navigateToSearch(item.Name)">{{item.Name}}</a> -->
+                <a (mousedown)="redirectToDetails(item.id)">{{item.Name}}</a>
+            </li>
+        </ul>
+    </div>
+    
+       
+      <!-- Menu items based on menuType using ngSwitch -->
+      <div [ngSwitch]="menuType">
+        <!-- Default menu items -->
+        <ul *ngIf="homeMenu">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="seller-auth">signin/login</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link active" routerLink="/user-auth">Login/sign-up</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link active" routerLink="add-cart">cart</a>
+          </li> -->
+        </ul>
+
+
+        <ul *ngIf="user">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link active" routerLink="seller-home">Seller</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link active" (click)="userlogout()" routerLink="/user-auth">Logout..</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="add-cart">cart{{count}}</a>
+          </li>
+        </ul>
+        
+        
+        <!-- Seller menu items -->
+        <ul *ngIf="seller">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/seller-home">Product List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/seller-add-product">Add Product</a>
+          </li>
+          <li class="nav-item">
+            <a (click)="userlogout()">Logout.</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">{{sellerName}}</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    

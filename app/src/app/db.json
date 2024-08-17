@@ -1,0 +1,538 @@
+{
+  "seller": [
+    {
+      "name": "patel kruti",
+      "password": "123",
+      "id": "77f1"
+    },
+    {
+      "name": "meera",
+      "password": "223",
+      "id": "3f39"
+    },
+    {
+      "id": "40cc",
+      "uname": "yuy",
+      "psw": "ee90"
+    },
+    {
+      "id": "1068",
+      "uname": "patel kruti",
+      "psw": "1906"
+    },
+    {
+      "id": "da38",
+      "uname": "kruti",
+      "psw": "6666"
+    },
+    {
+      "id": "5670",
+      "uname": "kruti",
+      "psw": "0000"
+    },
+    {
+      "id": "eb50",
+      "uname": "kruti",
+      "psw": "1111"
+    },
+    {
+      "id": "afff",
+      "uname": "kruti",
+      "psw": "11111"
+    },
+    {
+      "id": "bbed",
+      "uname": "patel kruti",
+      "psw": "121211"
+    },
+    {
+      "id": "41a2",
+      "uname": "ttttt",
+      "psw": "44444"
+    },
+    {
+      "id": "98fe",
+      "uname": "patel kruti",
+      "psw": "1906"
+    },
+    {
+      "id": "7af2",
+      "uname": "patel kruti",
+      "psw": "wwww"
+    },
+    {
+      "id": "e92e",
+      "uname": "patel kruti",
+      "psw": "77777"
+    },
+    {
+      "id": "7ae0",
+      "uname": "grgrty",
+      "psw": "2222"
+    },
+    {
+      "id": "73cf",
+      "uname": "patel kruti",
+      "psw": "rrr"
+    },
+    {
+      "id": "a1a1",
+      "uname": "kruti",
+      "psw": "1212"
+    },
+    {
+      "id": "9573",
+      "uname": "kruti",
+      "psw": "hth"
+    },
+    {
+      "id": "bd35",
+      "uname": "patel kruti",
+      "psw": "1222"
+    },
+    {
+      "id": "f061",
+      "uname": "patel kruti",
+      "psw": "2222"
+    },
+    {
+      "id": "a1a3",
+      "uname": "kruti",
+      "psw": "6yhh",
+      "email": "kruti@gmail.com"
+    },
+    {
+      "id": "2e91",
+      "uname": "patel kruti",
+      "psw": "adxs",
+      "email": "dina123@gmail.com",
+      "role": "1"
+    },
+    {
+      "id": "6297",
+      "uname": "patel kruti",
+      "psw": "adxs",
+      "email": "dina123@gmail.com",
+      "role": "2"
+    },
+    {
+      "id": "2fb0",
+      "uname": "kruti",
+      "psw": "swd",
+      "email": "shilojanisha@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "5003",
+      "uname": "kruti",
+      "psw": "thgt",
+      "email": "rfhgth",
+      "role": "user"
+    },
+    {
+      "id": "d0f1",
+      "uname": "kruti",
+      "psw": "thgt",
+      "email": "rfhgth",
+      "role": "user"
+    },
+    {
+      "id": "0632",
+      "uname": "patel kruti",
+      "psw": "qsaqds",
+      "email": "dina123@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "b543",
+      "uname": "patel kruti",
+      "psw": "qsaqds",
+      "email": "dina123@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "a7ae",
+      "uname": "patel kruti",
+      "psw": "qsaqds",
+      "email": "dina123@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "36e1",
+      "uname": "jay",
+      "psw": "1234",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "43b2",
+      "uname": "",
+      "psw": "",
+      "email": "",
+      "role": "seller"
+    },
+    {
+      "id": "ebde",
+      "uname": "patel kruti",
+      "psw": "yjyh",
+      "email": "dina123@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "d47a",
+      "uname": "patel kruti",
+      "psw": "gbfb",
+      "email": "kruti@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": "fa3d",
+      "uname": "patel kruti",
+      "psw": "SADXS",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "af32",
+      "uname": "patel kruti",
+      "psw": "qsas",
+      "email": "shilojanisha@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "b970",
+      "uname": "patel kruti",
+      "psw": "grfgd",
+      "email": "dina123@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "1f06",
+      "uname": "",
+      "psw": "",
+      "email": "",
+      "role": "seller"
+    },
+    {
+      "id": "2afb",
+      "uname": "patel kruti",
+      "psw": "gtrt",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "14b2",
+      "uname": "patel kruti",
+      "psw": "1234",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "0025",
+      "uname": "patel kruti",
+      "psw": "efd",
+      "email": "sur@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "03b8",
+      "uname": "patel kruti",
+      "psw": "1234",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "e693",
+      "uname": "patel kruti",
+      "psw": "1234",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "f157",
+      "uname": "patel kruti",
+      "psw": "1234",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "7ce0",
+      "uname": "patel kruti",
+      "psw": "1234",
+      "email": "sur@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "2d2c",
+      "uname": "patel kruti",
+      "psw": "1234",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "7732",
+      "uname": "patel kruti",
+      "psw": "kuk,",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "e13e",
+      "uname": "patel kruti",
+      "psw": "gthbgh",
+      "email": "dina123@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "77bf",
+      "uname": "patel kruti",
+      "psw": "ujuk",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "02d8",
+      "uname": "patel kruti",
+      "psw": "1234",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "8c56",
+      "uname": "",
+      "psw": "",
+      "email": "",
+      "role": "seller"
+    },
+    {
+      "id": "45e1",
+      "uname": "",
+      "psw": "",
+      "email": "",
+      "role": "seller"
+    },
+    {
+      "id": "6aa8",
+      "uname": "",
+      "psw": "",
+      "email": "",
+      "role": "seller"
+    },
+    {
+      "id": "249a",
+      "uname": "",
+      "psw": "",
+      "email": "",
+      "role": "seller"
+    },
+    {
+      "id": "fdeb",
+      "uname": "patel kruti",
+      "psw": "oloil",
+      "email": "shilojanisha@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "7cc3",
+      "uname": "patel kruti",
+      "psw": "kuik",
+      "email": "kruti@gmail.com",
+      "role": "seller"
+    },
+    {
+      "id": "43e9",
+      "uname": "kruti",
+      "psw": "SZAS",
+      "email": "dina123@gmail.com",
+      "role": "seller"
+    }
+  ],
+  "products": [
+    {
+      "Name": "wedding suit",
+      "productprice": "10000",
+      "productcategory": "cloths",
+      "productdescription": " traditional Indian outfit comprising a long skirt, blouse and duptta for haldi ceremany",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-mehendi-printed-georgette-designer-readymadelehenga-gcrm0033622_mehendi-1_3_1800x1800.jpg?v=1717607519",
+      "id": "4329"
+    },
+    {
+      "Name": "lehenghas",
+      "productprice": "9789",
+      "productcategory": "cloths",
+      "productdescription": "traditional Indian outfit comprising a long skirt, blouse and duptta",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-parrotgreen-print-georgette-designer-readymadelehenga-gcrm0033715_parrot_green_1_10_1800x1800.jpg?v=1717607253",
+      "id": "d678"
+    },
+    {
+      "Name": "lehenghas",
+      "productprice": "19000",
+      "productcategory": "cloths",
+      "productdescription": "traditional Indian outfit comprising a long skirt, blouse ",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-ranipink-threadwork-georgette-designer-readymadelehenga-gcrm0032466_rani_pink_1_2_1800x1800.jpg?v=1714368910",
+      "id": "f0bd"
+    },
+    {
+      "Name": "saree",
+      "productprice": "5000",
+      "productcategory": "cloths",
+      "productdescription": "simple, pretty, attractive, elegant, and gorgeous.",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-pink-stonework-satin-designer-saree-saus0032726_pink_multi_1_5_1800x1800.jpg?v=1719812724",
+      "id": "6e2c"
+    },
+    {
+      "Name": "saree",
+      "productprice": "4000",
+      "productcategory": "cloths",
+      "productdescription": "traditional color for a bride's sari and symbolizes fertility, prosperity, and good luck",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-yellow-printed-semicrepe-designer-saree-saus0034610_yellow_multi_1_6_1800x1800.jpg?v=1719835483",
+      "id": "db55"
+    },
+    {
+      "Name": "gown",
+      "productprice": "5000",
+      "productcategory": "cloths",
+      "productdescription": "traditional Indian outfit comprising a long skirt, blouse ",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-ranipink-printed-georgette-designer-salwar-suit-ssrm0034004_rani_pink_1_3_1800x1800.jpg?v=1709956537",
+      "id": "06da"
+    },
+    {
+      "id": "c697",
+      "Name": "chaniya-choli",
+      "productprice": "8900",
+      "productcategory": "cloths",
+      "productdescription": "nice-collection",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-ranipink-cutdana-softsilk-designer-semi-stitchedlehenga-gcss0030205_rani_pink_multi_2_1800x1800.jpg?v=1692702594"
+    },
+    {
+      "id": "2459",
+      "Name": "chaniya-choli",
+      "productprice": "8900",
+      "productcategory": "cloths",
+      "productdescription": "best design in choli",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-seagreen-zariwork-semicrepe-designer-salwar-suit-ssrm0032545_sea_green_1_3_416be911-a8e1-4ba4-8cba-d6f7bb442efc_1800x1800.jpg?v=1700110975"
+    },
+    {
+      "id": "7335",
+      "Name": "chaniya-choli",
+      "productprice": "8900",
+      "productcategory": "cloths",
+      "productdescription": "nice choli",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-pink-sequins-lycra-designer-readymadelehenga-gcrm00327_2_1800x1800.jpg?v=1708953882"
+    },
+    {
+      "id": "ede5",
+      "Name": "chaniya-choli",
+      "productprice": "7000",
+      "productcategory": "cloths",
+      "productdescription": "fabric is good",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-ranipink-bandini-georgette-designer-readymadelehenga-gcrm0034542_rani_pink_1_6_1800x1800.jpg?v=1710762880"
+    },
+    {
+      "id": "dfbd",
+      "Name": "wedding gown",
+      "productprice": "10000",
+      "productcategory": "cloths",
+      "productdescription": "best collection is gown",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-gold-sequins-tissue-designer-gown-gnrm0032092_gold_1_3_1800x1800.jpg?v=1708087025"
+    },
+    {
+      "id": "fe48",
+      "Name": "wedding gown",
+      "productprice": "15000",
+      "productcategory": "cloths",
+      "productdescription": "nice collection",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-lavender-stonework-net-designer-gown-gnrm0034431_lavender_1_4_1800x1800.jpg?v=1713960788h"
+    },
+    {
+      "id": "e599",
+      "Name": "wedding gown",
+      "productprice": "20000",
+      "productcategory": "cloths",
+      "productdescription": "reception wear collection ",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-pink-zariwork-georgette-designer-gown-gnrm0032999_pink_1_7_1800x1800.jpg?v=1715677574"
+    },
+    {
+      "id": "481f",
+      "Name": "wedding gown",
+      "productprice": "25000",
+      "productcategory": "cloths",
+      "productdescription": "nice design ",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-gold-cutdana-tissue-designer-gown-gnrm0032084_gold_1_2_1800x1800.jpg?v=1708086967"
+    },
+    {
+      "id": "6892",
+      "Name": "chaniya-choli",
+      "productprice": "21000",
+      "productcategory": "cloths",
+      "productdescription": "nice design ",
+      "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-pink-sequins-lycra-designer-readymadelehenga-gcrm00327_2_1800x1800.jpg?v=1708953882"
+    }
+  ],
+  "user": [
+    {
+      "id": "473e",
+      "uname": "htgbh",
+      "email": "k@gmail.com",
+      "psw": "kRU@12345",
+      "role": "user"
+    },
+    {
+      "id": "b83d",
+      "uname": "fhgjh",
+      "email": "dd@gmail.com",
+      "psw": "Dd@123456",
+      "role": "seller"
+    },
+    {
+      "id": "8991",
+      "uname": "hjmh",
+      "email": "kk@gmail.com",
+      "psw": "Kk@1234456",
+      "role": "user"
+    },
+    {
+      "id": "51cc",
+      "uname": "uikuyj",
+      "email": "tt@gmail.com",
+      "psw": "Tt@123456",
+      "role": "seller"
+    },
+    {
+      "id": "f3da",
+      "uname": "hgthg",
+      "email": "jj@gmail.com",
+      "psw": "Jj@123456",
+      "role": "seller"
+    },
+    {
+      "id": "80c0",
+      "uname": "tyhth",
+      "email": "ee@gmail.com",
+      "psw": "Ee@123456",
+      "role": "user"
+    },
+    {
+      "id": "b90f",
+      "uname": "gfgf",
+      "email": "yy@gmail.com",
+      "psw": "Qq@123456",
+      "role": "user"
+    },
+    {
+      "id": "da3a",
+      "uname": "hello123",
+      "email": "hello123@gmail.com",
+      "psw": "Demo@1234",
+      "role": "user"
+    },
+    {
+      "id": "dbc6",
+      "uname": "hello123",
+      "email": "hello1234@gmail.com",
+      "psw": "Demo@1234",
+      "role": "user"
+    }
+  ],
+  "cart": []
+}

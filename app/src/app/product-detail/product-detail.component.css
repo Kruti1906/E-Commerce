@@ -1,0 +1,142 @@
+.product-image{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+.product-details{ 
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.h1,h5,h6{
+    margin-bottom: 20px;
+}
+.quantity-group{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.quantity-group button{
+    padding: 10px;
+    border-radius: 50px;
+    border:none;
+    background-color: rgb(209, 209, 235);
+    height: 35px;
+    width: 35px;
+}
+.quantity-group input{
+    padding: 10px;
+    width: 20px;
+}
+
+
+.details {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.add-to-cart-button,
+.remove-from-cart-button {
+    background-color: #28a745; /* Green background for 'Add to Cart' */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size of the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    margin-bottom: 20px; /* Space below the button */
+    width: 100%; /* Full width button */
+    text-align: center; /* Center text inside the button */
+}
+
+.add-to-cart-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.add-to-cart-button:active {
+    background-color: #1e7e34; /* Even darker green when button is pressed */
+}
+
+.remove-from-cart-button {
+    background-color: #dc3545; /* Red background for 'Remove from Cart' */
+}
+
+.remove-from-cart-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.remove-from-cart-button:active {
+    background-color: #bd2130; /* Even darker red when button is pressed */
+}
+
+.quantity-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-group button {
+    background-color: #afb2b5; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    width: 40px; /* Width of the button */
+    height: 40px; /* Height of the button */
+    font-size: 18px; /* Font size of the button text */
+    display: flex; /* Flexbox for centering text */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    margin: 0 5px; /* Margin between buttons */
+}
+
+.quantity-group button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.quantity-group button:active {
+    background-color: #004080; /* Even darker blue when button is pressed */
+}
+
+.quantity-group span {
+    font-size: 18px; /* Font size of the quantity text */
+    margin: 0 10px; /* Margin around the quantity text */
+}
+
+.form-button {
+    background-color: #007bff; /* Primary color, change as needed */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #62686e; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  
+  .form-button:active {
+    background-color: #004080; /* Even darker shade when the button is clicked */
+    transform: scale(0.98); /* Slightly shrink the button on click */
+  }
+  
+  /* Additional styling for the 'back' button specifically */
+  .back-button {
+    background-color: #6c757d; /* Secondary color for the 'back' button */
+  }
+  
+  .back-button:hover {
+    background-color: #5a6268; /* Darker shade for hover effect */
+  }
+  

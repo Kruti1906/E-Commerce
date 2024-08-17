@@ -1,0 +1,105 @@
+/* Styles for the navigation bar */
+.nav {
+  background-color: #CCD3CA; /* Background color of the navbar */
+  color: #100e0e; /* Text color */
+  padding: 4px; /* Padding around the navbar */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Align items to the start and end */
+}
+
+/* Styles for the list items in the navigation */
+.nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.nav .navbar input[type="text"] {
+  padding: 8px; /* Padding inside the input */
+  margin-right: 5px; /* Margin between input and button */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.nav li {
+  margin-left: 10px; /* Margin between list items */
+}
+
+.nav li:last-child {
+  margin-left: auto; /* Push the last item to the right */
+}
+
+/* Styles for the links in the navigation */
+.nav a {
+  color: rgb(9, 8, 8); /* Text color */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px; /* Padding inside the link */
+  display: inline-block; /* Display links inline */
+  
+  
+}
+
+.nav a:hover {
+  background-color: #f6f4f1; /* Darker background color on hover */
+}
+
+/* Styles for the search button */
+/* Styles for the search input and button in the navigation */
+.nav .navbar input[type="text"] {
+  padding: 10px; /* Increased padding inside the input */
+  margin-right: 10px; /* Margin between input and button */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  transition: border-color 0.3s ease; /* Transition effect for border color */
+
+  /* Optional: Adjust width as needed */
+  width: 200px;
+}
+
+.nav .navbar input[type="text"]:focus {
+  border-color: #6b6b6b; /* Border color on focus */
+}
+
+.nav .navbar button {
+  padding: 12px 24px; /* Padding inside the button */
+  background-color: #948979; /* Background color of the button */
+  color: white; /* Text color */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Transition effect for background color */
+}
+
+.nav .navbar button:hover {
+  background-color: #7d756b; /* Darker background color on hover */
+}
+
+
+.nav .navbar button:hover {
+  background-color: #948979; /* Darker background color on hover */
+}
+.h1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: bold;
+}
+.search-result{
+  position: absolute;
+  display: list-item !important;
+  z-index: 10;
+  background-color: black;
+  width:300px;
+  top:40px;
+  border:1px solid whitesmoke;
+}
+.search-result li{
+  border:1px solid #fff;
+  padding: 5px;
+}
+.search-result li a{
+  cursor: pointer;
+  color: #f1eded;
+}

@@ -1,0 +1,59 @@
+<form class="row g-10" [formGroup]="myform">
+  <h1 class="f1">Update Product</h1>
+  <p>{{productMessage}}</p>
+  <br>
+  <div class="col-md-8">
+      <label for="Name" class="form-label f1">Enter product name</label>&nbsp;
+      <input type="text" id="Name" class="form-control" placeholder="Enter product name" formControlName="Name"
+          >
+      <small class="text-danger"
+          *ngIf="myform.get('Name')?.touched && myform.get('Name')?.errors?.['required']">Product name is
+          required</small>
+  </div>
+  <br>
+
+
+  <div class="col-md-8">
+      <label for="productprice" class="form-label f1">Enter product price</label>&nbsp;
+      <input type="text" id="productprice" class="form-control" placeholder="Enter product price"
+          formControlName="productprice" >
+      <small class="text-danger"
+          *ngIf="myform.get('productprice')?.touched && myform.get('productprice')?.errors?.['required']">Product
+          price is required</small>
+  </div>
+  <br>
+  <div class="col-md-8">
+      <label for="productcategory" class="form-label f1">Enter product category</label>&nbsp;
+      <input type="text" id="productcategory" class="form-control" placeholder="Enter product category"
+          formControlName="productcategory">
+      <small class="text-danger"
+          *ngIf="myform.get('productcategory')?.touched && myform.get('productcategory')?.errors?.['required']">Product
+          category is required</small>
+  </div>
+
+  <br>
+
+  <div class="col-md-8">
+      <label for="productdescription" class="form-label f1">Enter product description</label>&nbsp;
+      <input type="text" id="productdescription" class="form-control" placeholder="Enter product description"
+          formControlName="productdescription">
+      <small class="text-danger"
+          *ngIf="myform.get('productdescription')?.touched && myform.get('productdescription')?.errors?.['required']">Product
+          description is required</small>
+  </div>
+
+  <br>
+
+  <div class="col-md-8 form-group">
+      <label for="productimageURL" class="form-label f1">Enter product image URL</label>&nbsp;
+      <input type="text" id="productimageURL" class="form-control" placeholder="Enter product image URL"
+          formControlName="productimageURL">
+      <small class="text-danger"
+          *ngIf="myform.get('productimageURL')?.touched && myform.get('productimageURL')?.errors?.['required']">Product
+          image URL is required</small>
+  </div>
+  <br>
+  <div class="col-12 btn-submit">
+      <button type="submit" class="btn btn-secondary btn-lg" (click)="savedata()">Submit</button>
+  </div>
+</form>

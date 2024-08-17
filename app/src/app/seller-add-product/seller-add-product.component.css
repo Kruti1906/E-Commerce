@@ -1,0 +1,64 @@
+/* Container for the form */
+.form-container {
+    max-width: 600px; /* Adjust based on your design */
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Heading style */
+  .form-heading {
+    font-size: 24px;
+    color: blue;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field and label styles */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Error message style */
+  .text-danger {
+    color: red;
+    font-size: 14px;
+  }
+  
+  /* Submit button style */
+  .btn-submit {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn-submit button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-submit button:hover {
+    background-color: #0056b3;
+  }
+  .p{
+    color: blue;
+  }

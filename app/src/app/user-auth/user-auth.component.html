@@ -1,0 +1,49 @@
+<!-- <br>
+<div class="user-auth">
+  <h2 class="common">User Sign-Up</h2><br>
+  <form #userForm="ngForm" class="common" (ngSubmit)="signUp()">
+    <input class="form-input" type="text" placeholder="Enter user name" name="name" [(ngModel)]="userSignUp.name" required />
+
+    <input class="form-input" type="email" placeholder="Enter user Email" name="email" [(ngModel)]="userSignUp.email" required />
+
+    <input class="form-input" type="password" placeholder="Enter user password" name="password" [(ngModel)]="userSignUp.password" required />
+     
+    <button class="form-button" type="submit">Sign-Up</button>
+  </form>
+</div> -->
+<form [formGroup]="userForm"  class="f2">
+    
+    <div class="container" *ngIf="!showLogin">
+        <P class="p1">user form</P>
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname"  formControlName="uname" >
+      
+      <label for="uname"><b>enter email</b></label>
+      <input type="text" placeholder="Enter email" name="uname"  formControlName="email" >
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password"  name="psw"  formControlName="psw" >
+      
+      <button type="submit" (click)="onsubmit()">sign up</button>
+      <a class="h1" (click)="opensignin()">Alredy Have Account? Click To Login</a>
+    </div>
+  </form>
+  <br><br>
+
+
+  
+  <form [formGroup]="loginForm"  class="f2">
+    
+    <div class="container" *ngIf="showLogin">
+        <P class="p1">Seller log-in form</P>
+      <label for="email"><b>email</b></label>
+      <input type="text" placeholder="Enter email" name="email"  formControlName="email" #textuserid>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password"  name="psw"  formControlName="psw" #textuserword >
+      
+      <button type="submit" (click)="onlogin(textuserid.value,textuserword.value)">sign up</button>
+      <a class="h1" (click)="openlogin()">Don't Have Account? Click To signin</a>
+    </div>
+  </form>
+  
