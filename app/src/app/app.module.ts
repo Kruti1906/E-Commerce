@@ -18,6 +18,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { SearchComponent } from './search/search.component';
 import { UserAuthComponent } from './user-auth/user-auth.component';
+// import { DARK_MODE_OPTIONS } from 'angular-dark-mode';
+
+
 
 @NgModule({
   declarations: [
@@ -42,7 +45,8 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
     HttpClientModule,
     ReactiveFormsModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

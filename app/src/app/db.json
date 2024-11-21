@@ -350,7 +350,7 @@
   "products": [
     {
       "Name": "wedding suit",
-      "productprice": "10000",
+      "productprice": "13000",
       "productcategory": "cloths",
       "productdescription": " traditional Indian outfit comprising a long skirt, blouse and duptta for haldi ceremany",
       "productimageURL": "https://www.koskii.com/cdn/shop/files/koskii-mehendi-printed-georgette-designer-readymadelehenga-gcrm0033622_mehendi-1_3_1800x1800.jpg?v=1717607519",
@@ -531,6 +531,34 @@
       "uname": "hello123",
       "email": "hello1234@gmail.com",
       "psw": "Demo@1234",
+      "role": "user"
+    },
+    {
+      "id": "37f1",
+      "uname": "kruti",
+      "email": "k@email.com",
+      "psw": "Kruti@123",
+      "role": "user"
+    },
+    {
+      "id": "5e5a",
+      "uname": "kruti",
+      "email": "kr@email.com",
+      "psw": "Kruti@123",
+      "role": "seller"
+    },
+    {
+      "id": "de3e",
+      "uname": "kruti",
+      "email": "k@gmail.com",
+      "psw": "Kk@123456",
+      "role": "seller"
+    },
+    {
+      "id": "80d1",
+      "uname": "dd",
+      "email": "d@gmail.com",
+      "psw": "Dd@123456",
       "role": "user"
     }
   ],
